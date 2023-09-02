@@ -2,15 +2,13 @@
   "name": "job-listings-api",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Rediet Tekola",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "node dist/main",
-    "start:nest": "nest start",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
@@ -54,6 +52,9 @@
     "ts-node": "^10.0.0",
     "tsconfig-paths": "4.1.1",
     "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": "16.17.0"
   },
   "jest": {
     "moduleFileExtensions": [
